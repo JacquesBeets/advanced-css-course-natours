@@ -7,11 +7,12 @@
 @import "base/typogrophy";
 @import "base/utilities";
 
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+
 @import "layout/header";
 @import "layout/gridFloat";
 
 @import "pages/home.scss";
-
-@import "components/button";
-@import "components/composition";
-@import "components/feature-box";
