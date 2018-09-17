@@ -48,7 +48,7 @@
                 <span class="heading-primary--sub">is where life happens</span>
             </h1>
 
-            <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+            <a href="#sectionTours" class="btn btn--white btn--animated">Discover our tours</a>
 
         </div>
     </header>
@@ -132,7 +132,7 @@
             </div>
         </section>
 
-        <section class="section-tours">
+        <section class="section-tours" id="sectionTours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular tours
@@ -169,7 +169,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$297</p>
                                 </div>
-                                <a href="#" class="btn btn--white">Book Now!</a>
+                                <a href="#modal" class="btn btn--white">Book Now!</a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$297</p>
                                 </div>
-                                <a href="#" class="btn btn--white">Book Now!</a>
+                                <a href="#modal" class="btn btn--white">Book Now!</a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,7 @@
                                     <p class="card__price-only">Only</p>
                                     <p class="card__price-value">$297</p>
                                 </div>
-                                <a href="#" class="btn btn--white">Book Now!</a>
+                                <a href="#modal" class="btn btn--white">Book Now!</a>
                             </div>
                         </div>
                     </div>
@@ -378,13 +378,14 @@
         </div>
     </footer>
 
-    <div class="modal">
+    <div class="modal" id="modal">
         <div class="modal__content">
             <div class="modal__left">
                 <img src="img/nat-8.jpg" alt="Tour Photo" class="modal__img">
                 <img src="img/nat-9.jpg" alt="Tour Photo" class="modal__img">
             </div>
             <div class="modal__right">
+                <a href="#sectionTours" class="modal__close">&times;</a>
                 <h2 class="heading-secondary u-margin-bottom-small">Start Booking Now</h2>
                 <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before
                     booking.</h3>
